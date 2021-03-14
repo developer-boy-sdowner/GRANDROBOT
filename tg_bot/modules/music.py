@@ -12,7 +12,7 @@ import pybase64
 from base64 import b64decode
 from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
-from telethon import events
+
 
 from tg_bot.events import register
 from tg_bot.modules.helper_funcs import progress
